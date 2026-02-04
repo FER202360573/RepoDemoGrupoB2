@@ -1,0 +1,90 @@
+body{
+    margin: 50px;
+    background: linear-gradient(0deg, rgba(251, 115, 162, 1.0), rgba(255, 231, 244, 1.0));;
+}
+
+h1{
+    width: 300px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    transform: rotate(5deg);
+    text-shadow: 5px 5px 10px #7a7676;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro{
+    background: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.menu{
+    padding: 50px;
+    background: rgb(253, 244, 233);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    block-size: 100px;
+    border-radius: 2px;
+    
+}
+
+.nav {
+    font-size: 30px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    text-decoration: none;
+    
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    color: purple;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+a:link{
+    
+    text-decoration: none;
+    padding: 3px;
+}
+a:visited{
+    background-color: black;
+}
+
+a:hover {
+    background-color: transparent;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+}
+
+.div-manzana{
+    margin: 10px;
+    padding: 20px;
+    background: radial-gradient(at center, rgba(168, 210, 63, 1.0), rgba(255, 246, 231, 1.0));
+    border-radius: 2px;
+}
+.div-chocolate{
+    margin: 10px;
+    padding: 20px;
+    background: radial-gradient(at center, rgba(76, 45, 1, 1.0), rgba(199, 174, 146, 1.0));;
+    border-radius: 2px;
+}
+
+.div-fresa{
+    margin: 10px;
+    padding: 20px;
+    background: radial-gradient(at center, rgba(210, 63, 63, 1.0), rgba(255, 231, 245, 1.0));
+    border-radius: 2px;
+}
