@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(218, 137, 39);
+}
+
+html{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.color-texto{
+    background-color: blue;
+    color: blueviolet;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 20px;
+
+
+}
+
+ul{
+    padding: 10;
+    margin: 10;
+    list-style: none;
+
+}
