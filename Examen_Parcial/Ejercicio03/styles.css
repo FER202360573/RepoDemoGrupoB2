@@ -1,0 +1,34 @@
+/*
+Agrega en cada selector las reglas necesarias para obtener el resultado esperado
+según las instrucciones y la imágen muestra.
+*/
+
+*{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+h1{
+    background-color: #eeeeee; 
+    color: orange;            
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid green; 
+    font-size: 24px;
+}
+
+#galeria {                    
+    max-width: 500px;                      
+    margin: 0 auto;
+}
+#galeria img {
+    float: left;
+    padding: 1.2em;
+
+}
+#galeria img:hover{
+    border: 3px solid #336699;    
+    border-radius: 30px;            
+    cursor: pointer;
+}
+
