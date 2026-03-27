@@ -3,7 +3,8 @@ import crearSesionPago from "../controllers/pago-controller.js";
 
 const router = Router();
 
-router.get("/pagar" , crearSesionPago);
-router.get("/exito", (req, res)=>res.send("Exito en el pago"));
-router.get("/cancelado", (req, res)=>res.send("Pago cancelado"));
+router.post("/pagar" , crearSesionPago);
+router.get("/exito", (req, res)=>res.redirect("pagado.html"));
+router.get("/cancelado", (req, res)=>res.redirect("cancelado.html"));
+
 export default router;
