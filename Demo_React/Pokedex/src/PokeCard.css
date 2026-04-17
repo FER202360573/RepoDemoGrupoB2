@@ -1,0 +1,126 @@
+/* Contenedor principal con padding superior para no tapar con el buscador fijo */
+.poke-app-container {
+  padding: 120px 20px 40px 20px; 
+  background-color: #121212;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Barra superior FIJA */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.poke-form {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+}
+
+.poke-input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #444;
+  outline: none;
+}
+
+.poke-button {
+  padding: 8px 15px;
+  background-color: #ef5350;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Paginación pequeña */
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.nav-button {
+  padding: 5px 15px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Grid de tarjetas pequeñas */
+.poke-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card ajustada (más pequeña) */
+.poke-card {
+  width: 100%; /* Se adapta al grid */
+  max-width: 200px;
+  background: #f1c40f;
+  border: 5px solid #f39c12;
+  border-radius: 12px;
+  padding: 10px;
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.poke-card:hover { transform: scale(1.03); }
+
+.poke-card-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.poke-card-image-bg {
+  background-color: white;
+  border-radius: 8px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.poke-card-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.poke-card-info {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.poke-card-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background: rgba(0,0,0,0.05);
+  padding: 4px;
+  border-radius: 4px;
+}
